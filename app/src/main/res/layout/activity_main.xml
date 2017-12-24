@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#660066"
+    tools:context="com.example.winner.AppHoro2018.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/horo2018" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:text="ดูดวงตามราศีเกิด"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:hint="ใส่ชื่อของคุณ"
+        android:textColor="#ffffff"
+        android:id="@+id/input"/>
+
+
+
+    <Button
+        android:id="@+id/btn_intent"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:text="เริ่มดูดวง"
+        android:background="#330033"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        />
+
+</LinearLayout>
